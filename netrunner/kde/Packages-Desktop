@@ -1,0 +1,440 @@
+## Network
+>systemd avahi
+>openrc avahi-openrc
+networkmanager
+>openrc networkmanager-openrc
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+networkmanager-dispatcher-ntpd
+nss-mdns # NSS support for mDNS (optdepend for avahi)
+>systemd ntp
+>openrc ntp-openrc
+mobile-broadband-provider-info
+modemmanager
+>systemd openresolv
+>systemd openssh
+>openrc openssh-openrc
+samba
+net-tools
+
+## Libraries for Sound/Audio/Video
+alsa-firmware
+>systemd alsa-utils
+>openrc alsa-utils-openrc
+ffmpeg
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+libcanberra
+>multilib lib32-libcanberra
+libcanberra-pulse
+>multilib lib32-libcanberra-pulse
+libcanberra-gstreamer
+libdvdcss
+manjaro-alsa
+manjaro-pulse
+>extra phonon-qt4-gstreamer
+phonon-qt5-gstreamer
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+pavucontrol-qt
+qt-gstreamer
+
+## Connect Packages
+android-tools
+android-udev
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+kamera
+mtpfs
+udiskie
+udisks2
+
+## AUR Support/Development
+# Missing base-devel packages
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+gcc
+>multilib gcc-libs-multilib
+>multilib gcc-multilib
+libtool
+m4
+make
+patch
+pkg-config
+>multilib lib32-flex
+
+## Extra packages for AUR support
+>extra git
+>extra patchutils
+>extra subversion
+yaourt
+
+## Fonts
+# cantarell-fonts        # Installed as gnome-themes-standard dependency
+noto-fonts               # default font
+# noto-fonts-cjk         # big package, ~76 mb compressed
+>extra noto-fonts-emoji
+terminus-font
+>extra ttf-bitstream-vera
+# ttf-dejavu             # Installed as gnome-themes-standard dependency
+# ttf-hack               # Installed as plasma-integration dependency
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
+
+## Games
+# >extra steam-manjaro
+burgerspace
+gltron
+gnome-chess
+gnuchess
+frozen-bubble
+kbreakout
+kmines
+kdegames-ksudoku
+kdegames-ksnakeduel
+kmahjongg
+steam
+steam-native-runtime
+
+## Package management
+octopi
+octopi-notifier-frameworks
+octopi-cachecleaner
+octopi-repoeditor
+
+## Printing
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gtk3-print-backends
+>extra hplip
+>extra splix
+
+## Optional dependencies for hplip
+>extra pyqt5-common
+>extra python-pillow
+>extra python-pip
+>extra python-pyqt5
+>extra python-reportlab
+
+## Display manager
+>systemd sddm
+>openrc sddm-elogind
+sddm-kcm
+
+## Plasma5
+bluedevil
+kde-gtk-config
+kdeplasma-addons
+kgamma5
+kinfocenter
+kmenuedit
+kscreen
+kscreenlocker
+ksshaskpass
+ksysguard
+kwallet-pam
+kwayland-integration
+kwin
+qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
+kwrited
+milou
+plasma-desktop
+plasma-nm
+plasma-pa
+plasma-workspace
+# >extra plasma-workspace-wallpapers
+powerdevil
+systemsettings
+# user-manager
+
+## Themes QT/GTK/SDDM
+breeze-netrunner
+>extra breeze-kde4-netrunner
+breeze-gtk
+gnome-icon-theme
+# gnome-themes-standard
+# gtk-theme-breath
+>extra oxygen
+>extra oxygen-kde4
+>extra oxygen-icons
+# plasma5-themes-breath  # Default
+# sddm-breath-theme  # Default
+oxygen-gtk2
+gnome-icon-theme-extras
+
+## Better systray/notifications support
+>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
+libappindicator-gtk2
+libappindicator-gtk3
+libappindicator-sharp
+perl-gtk2-trayicon
+
+## KDE Applications
+ark
+# >extra digikam
+dolphin
+dolphin-plugins
+# >extra filelight
+# >extra k3b
+kate
+kcalc
+>extra keditbookmarks
+# kfind
+kdeconnect
+okular
+# >extra kdenetwork-kget
+kdenetwork-filesharing
+>extra kdenlive
+kde-servicemenus-rootactions
+khelpcenter
+kio-extras
+# >extra kleopatra
+konsole
+# konversation
+ksystemlog
+kwalletmanager
+# kwrite
+gwenview
+partitionmanager
+>extra print-manager
+>extra skanlite
+spectacle
+icoutils
+kamoso
+marble
+
+## Optional dependencies for ark
+p7zip  # 7Z format support
+unrar  # RAR format support
+
+## Optional dependency for digikam
+# >extra kipi-plugins   # export to various online services
+# >extra hugin            # panorama tool
+
+## Optional dependencies for dolphin
+kdegraphics-thumbnailers  # PDF and PS thumbnails
+ffmpegthumbs              # video thumbnails
+ruby                      # installing new service menus with GHNS
+
+## Optional dependencies for gwenview
+kimageformats     # support for dds, xcf, exr, psd, and more image formats
+qt5-imageformats  # support for tiff, webp, and more image formats
+
+## Optional dependencies for k3b
+>extra cdparanoia    # for cd ripping support
+>extra cdrdao        # for disk-at-once (DAO) mode support
+>extra dvd+rw-tools  # for dvd burning support
+>extra emovix        # for bootable multimedia cd/dvd support
+>extra transcode     # for advanced mpeg conversion support
+>extra vcdimager     # for vcd burning support
+
+## Optional dependencies for kaccounts-integration
+kaccounts-providers
+
+## Optional dependencies for kdeconnect
+sshfs  # remote filesystem browser
+
+## Optional dependencies for kdenlive
+>extra cdrtools         # for creation of DVD ISO images
+>extra dvdauthor        # for creation of DVD
+>extra dvgrab           # for firewire capture
+>extra recordmydesktop  # for screen capture
+#>extra vlc-nightly # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
+>extra movit            # for GPU video processing
+
+## Optional dependencies for okular
+poppler-data  # encoding data to display PDF documents containing CJK characters
+
+## Optional dependencies for print-manager
+>extra system-config-printer  # auto-detect the printer driver
+>extra python-pysmbc          # SMB browser support
+
+## Applications
+# >extra cantata
+dmidecode # for inxi -m output
+htop
+isoimagewriter
+>extra inkscape
+inxi
+>extra krita
+>extra firefox-kde
+# >basic qupzilla
+>extra flashplugin
+>extra libreoffice-still
+# manjaro-hello
+manjaro-settings-manager-kcm
+manjaro-settings-manager-knotifier
+powertop
+# >extra qbittorrent
+screenfetch
+>systemd systemd-kcm
+>extra thunderbird-kde
+# vlc-nightly
+yakuake
+audacious
+gimp
+gmusicbrowser-filterfun
+google-talkplugin
+grub-customizer
+handbrake
+pidgin
+smplayer
+transmission-qt
+virtualbox
+virtualbox-guest-iso
+KERNEL-virtualbox-host-modules
+x11vnc
+vokoscreen
+
+## Optional dependencis for cantata
+# >extra mpd       # playback
+# >extra perl-uri  # dynamic playlist
+
+## Optional dependencies for libreoffice
+>extra jre8-openjdk
+>extra jdk8-openjdk
+
+## Documentation
+# manjaro-documentation
+
+## Settings packages
+# >extra manjaro-kde-settings
+# >basic manjaro-kde-minimal-settings
+# manjaro-browser-settings
+
+## Xorg Input Drivers
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
+xf86-input-mouse
+xf86-input-void
+
+## Xorg Server and Graphics
+>systemd xdg-user-dirs
+>systemd xorg-server
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+xorg-twm
+xorg-xinit
+mesa-demos
+>multilib lib32-mesa-demos
+
+## Desktop Utils
+perl-file-mimeinfo
+xdg-utils
+xdg-su
+
+## Misc
+manjaro-hotfixes
+>openrc elogind-openrc
+>openrc openrc-settingsd
+>openrc displaymanager-openrc
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
+
+## Flatpak support
+#>extra flatpak
+#>extra xdg-desktop-portal
+#>extra xdg-desktop-portal-kde
+
+## Artwork packages
+artwork-audacious
+artwork-color-scheme-carbon
+artwork-lnf-theme-netrunner-rolling
+artwork-netrunner-icons
+artwork-sddm-simple	
+artwork-wallpapers-netrunner-rolling
+artwork-whiteclassicia-cursor
+artwork-windows-cursor
+carbon-gtk2
+carbon-gtk3
+carbon-qt4
+carbon-qt5
+desktop-theme-blackx
+desktop-theme-bluex
+lnf-theme-blackx
+lnf-theme-bluex
+wallpapers-extra-pack-3
+
+## Settings packages
+default-settings-applications
+default-settings-autostart
+default-settings-kdeapps
+default-settings-plasma
+default-settings-profiled
+default-settings-session-debug
+default-settings-thunderbird
+default-settings-xdg-user-dirs
+default-settings-xsession
+default-systemsettings-settings-rolling
+netrunner-settings-autostart
+netrunner-settings-desktop-rolling
+netrunner-settings-firefox
+netrunner-settings-kcmabout
+netrunner-settings-samba
+netrunner-settings-sddm
+netrunner-settings-theming
+
+## Extra and support packages
+qtcurve-gtk2
+qtcurve-kde
+qtcurve-qt4
+qtcurve-utils
+gnome-software
+wget
+imwheel
+flatzebra
+perl-glib-object-introspection
+ttf-ms-fonts
+kcm-about-extended
+kcm-plasma-services
+kcm-samba-mounter
+ocs-url
+plasma5-applets-simplemenu
+plasma5-applets-volumewin7mixer
+firefox-extension-add-to-search-bar
+firefox-extension-ant-video-downloader
+firefox-extension-ublock-origin
+icedtea-web
+skypeforlinux-bin
+
+## KDE PIM
+#akonadiconsole
+#kaddressbook
+#kalarm
+#kmail
+#knotes
+#konsolekalendar
+#kontact
+#korganizer
+
+## KDE Telepathy
+#telepathy-kde-meta
+#telepathy-gabble
+#telepathy-farstream
+#telepathy-haze
+#telepathy-idle
+#telepathy-morse
+#telepathy-rakia
