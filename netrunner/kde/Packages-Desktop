@@ -403,6 +403,9 @@ qtcurve-gtk2
 qtcurve-kde
 qtcurve-qt4
 qtcurve-utils
+qt5-quickcontrols2
+qt5-websockets
+kross-interpreters
 gnome-software
 wget
 imwheel

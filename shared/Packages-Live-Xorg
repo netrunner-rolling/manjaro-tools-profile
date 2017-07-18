@@ -9,7 +9,7 @@ mkinitcpio-nfs-utils
 >multilib lib32-primus
 nbd
 >openrc bumblebee-openrc
->openrc manjaro-live-openrc
+# >openrc manjaro-live-openrc
 open-vm-tools
 primus
 # >manjaro grub-theme-live-manjaro
