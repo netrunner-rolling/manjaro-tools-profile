@@ -278,7 +278,8 @@ inxi
 >extra krita
 >extra firefox-kde
 # >basic qupzilla
->extra flashplugin
+>extra pepper-flash
+>extra freshplayerplugin
 >extra libreoffice-still
 # manjaro-hello
 manjaro-settings-manager-kcm
@@ -405,6 +406,7 @@ qtcurve-qt4
 qtcurve-utils
 qt5-quickcontrols2
 qt5-websockets
+quota-tools
 kross-interpreters
 gnome-software
 wget
