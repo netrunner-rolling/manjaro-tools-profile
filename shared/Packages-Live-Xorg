@@ -9,11 +9,11 @@ mkinitcpio-nfs-utils
 >multilib lib32-primus
 nbd
 >openrc bumblebee-openrc
-# >openrc manjaro-live-openrc
+>openrc manjaro-live-openrc
 open-vm-tools
 primus
 # >manjaro grub-theme-live-manjaro
-# >sonar grub-theme-live-sonar
+>sonar grub-theme-live-sonar
 squashfs-tools
 >systemd bumblebee
 >systemd manjaro-live-systemd
@@ -29,6 +29,6 @@ xf86-video-sisusb
 xf86-video-vesa
 xf86-video-vmware
 xf86-video-voodoo
-# >sonar thus
+>sonar thus
 grub-theme-live-netrunner
 netrunner-calamares-branding
