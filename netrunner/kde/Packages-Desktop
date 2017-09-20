@@ -17,6 +17,7 @@ modemmanager
 >systemd openssh
 >openrc openssh-openrc
 samba
+usb_modeswitch
 net-tools
 
 ## Libraries for Sound/Audio/Video
