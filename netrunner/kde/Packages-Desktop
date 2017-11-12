@@ -337,7 +337,6 @@ mesa-demos
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-xdg-su
 
 ## Misc
 manjaro-hotfixes
