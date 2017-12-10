@@ -102,8 +102,8 @@ gnuchess
 frozen-bubble
 kbreakout
 kmines
-kdegames-ksudoku
-kdegames-ksnakeduel
+ksudoku
+ksnakeduel
 kmahjongg
 steam
 steam-native-runtime
@@ -362,8 +362,8 @@ carbon-qt4
 carbon-qt5
 desktop-theme-blackx
 desktop-theme-bluex
-lnf-theme-blackx
-lnf-theme-bluex
+# lnf-theme-blackx
+# lnf-theme-bluex
 wallpapers-extra-pack-3
 
 ## Settings packages
@@ -406,7 +406,7 @@ kcm-samba-mounter
 ocs-url
 plasma5-applets-simplemenu
 plasma5-applets-volumewin7mixer
-firefox-extension-add-to-search-bar
+# firefox-extension-add-to-search-bar 
 firefox-extension-ant-video-downloader
 firefox-extension-ublock-origin
 icedtea-web
