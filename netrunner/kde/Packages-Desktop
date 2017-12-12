@@ -273,8 +273,7 @@ inxi
 >extra krita
 >extra firefox
 # >basic qupzilla
->extra pepper-flash
->extra freshplayerplugin
+>extra flashplugin
 >extra libreoffice-still
 # manjaro-hello
 manjaro-settings-manager-kcm
@@ -406,7 +405,7 @@ kcm-samba-mounter
 ocs-url
 plasma5-applets-simplemenu
 plasma5-applets-volumewin7mixer
-# firefox-extension-add-to-search-bar 
+# firefox-extension-add-to-search-bar
 firefox-extension-ant-video-downloader
 firefox-extension-ublock-origin
 icedtea-web
