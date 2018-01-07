@@ -148,10 +148,11 @@ kscreen
 kscreenlocker
 ksshaskpass
 ksysguard
+ksystraycmd
 kwallet-pam
 kwayland-integration
 kwin
-qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
+# qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
 kwrited
 milou
 plasma-desktop
@@ -161,7 +162,7 @@ plasma-workspace
 # >extra plasma-workspace-wallpapers
 powerdevil
 systemsettings
-# user-manager
+user-manager
 
 ## Themes QT/GTK/SDDM
 breeze-netrunner
