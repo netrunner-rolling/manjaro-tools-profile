@@ -296,6 +296,8 @@ grub-customizer
 handbrake
 pidgin
 smplayer
+yarock-qt5
+mpv
 transmission-qt
 virtualbox
 virtualbox-guest-iso
