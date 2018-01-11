@@ -16,7 +16,6 @@ powertop
 alsa-utils
 avahi
 networkmanager
-usb_modeswitch
 ntp
 openssh
 xdg-user-dirs
