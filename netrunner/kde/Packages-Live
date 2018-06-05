@@ -1,1 +1,10 @@
-../../shared/Packages-Live-Xorg
+calamares
+grub-theme-live-netrunner
+>sonar grub-theme-live-sonar
+>sonar sonar-calamares-branding
+manjaro-live-skel
+manjaro-live-systemd
+mkinitcpio-nfs-utils
+nbd
+netrunner-calamares-branding
+squashfs-tools

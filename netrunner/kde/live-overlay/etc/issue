@@ -1,1 +1,7 @@
-../../../../shared/netrunner/live-overlay/etc/issue
+[H[2J
+Netrunner Rolling Live ISO (\l) - \s-\r \m
+
+     Login for the live environment:
+                  user: netrunner
+             password : netrunner
+

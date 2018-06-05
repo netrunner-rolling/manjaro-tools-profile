@@ -5,7 +5,6 @@ networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
-networkmanager-dispatcher-ntpd
 nss-mdns # NSS support for mDNS (optdepend for avahi)
 ntp
 mobile-broadband-provider-info
@@ -33,7 +32,7 @@ libcanberra-gstreamer
 libdvdcss
 manjaro-alsa
 manjaro-pulse
->extra phonon-qt4-gstreamer
+phonon-qt4-gstreamer
 phonon-qt5-gstreamer
 pulseaudio-bluetooth
 pulseaudio-ctl
@@ -74,27 +73,22 @@ pkg-config
 >multilib lib32-flex
 
 ## Extra packages for AUR support
->extra git
->extra patchutils
->extra subversion
+git
+patchutils
+subversion
 yaourt
 
 ## Fonts
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
-# noto-fonts-cjk         # big package, ~76 mb compressed
->extra noto-fonts-emoji
+noto-fonts-emoji
 terminus-font
->extra ttf-bitstream-vera
-# ttf-dejavu             # Installed as gnome-themes-standard dependency
-# ttf-hack               # Installed as plasma-integration dependency
->extra ttf-inconsolata
->extra ttf-indic-otf
->extra ttf-liberation
->extra ttf-droid
+ttf-bitstream-vera
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+ttf-droid
 
 ## Games
-# >extra steam-manjaro
 burgerspace
 gltron
 gnome-chess
@@ -112,26 +106,23 @@ steam-native-runtime
 discover
 packagekit-qt5
 octopi
-# octopi-notifier-frameworks
-# octopi-cachecleaner
-# octopi-repoeditor
 
 ## Printing
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gtk3-print-backends
->extra hplip
->extra splix
+cups
+cups-pdf
+cups-pk-helper
+ghostscript
+gsfonts
+gtk3-print-backends
+hplip
+splix
 
 ## Optional dependencies for hplip
->extra pyqt5-common
->extra python-pillow
->extra python-pip
->extra python-pyqt5
->extra python-reportlab
+pyqt5-common
+python-pillow
+python-pip
+python-pyqt5
+python-reportlab
 
 ## Display manager
 sddm
@@ -152,35 +143,29 @@ ksystraycmd
 kwallet-pam
 kwayland-integration
 kwin
-# qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
 kwrited
 milou
 plasma-desktop
 plasma-nm
 plasma-pa
 plasma-workspace
-# >extra plasma-workspace-wallpapers
 powerdevil
 systemsettings
 user-manager
 
 ## Themes QT/GTK/SDDM
 breeze-netrunner
->extra breeze-kde4-netrunner
+breeze-kde4-netrunner
 breeze-gtk
 gnome-icon-theme
-# gnome-themes-standard
-# gtk-theme-breath
->extra oxygen
->extra oxygen-kde4
->extra oxygen-icons
-# plasma5-themes-breath  # Default
-# sddm-breath-theme  # Default
+oxygen
+oxygen-kde4
+oxygen-icons
 oxygen-gtk2
 gnome-icon-theme-extras
 
 ## Better systray/notifications support
->extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
+sni-qt  # A Qt plugin that enables tray icons in qt4 applications
 libappindicator-gtk2
 libappindicator-gtk3
 libappindicator-sharp
@@ -188,33 +173,25 @@ perl-gtk2-trayicon
 
 ## KDE Applications
 ark
-# >extra digikam
 dolphin
 dolphin-plugins
-# >extra filelight
-# >extra k3b
 kate
 kcalc
->extra keditbookmarks
-# kfind
+keditbookmarks
 kdeconnect
 okular
-# >extra kdenetwork-kget
 kdenetwork-filesharing
->extra kdenlive
+kdenlive
 kde-servicemenus-rootactions
 khelpcenter
 kio-extras
-# >extra kleopatra
 konsole
-# konversation
 ksystemlog
 kwalletmanager
-# kwrite
 gwenview
 partitionmanager
->extra print-manager
->extra skanlite
+print-manager
+skanlite
 spectacle
 icoutils
 kamoso
@@ -223,10 +200,6 @@ marble
 ## Optional dependencies for ark
 p7zip  # 7Z format support
 unrar  # RAR format support
-
-## Optional dependency for digikam
-# >extra kipi-plugins   # export to various online services
-# >extra hugin            # panorama tool
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
@@ -237,14 +210,6 @@ ruby                      # installing new service menus with GHNS
 kimageformats     # support for dds, xcf, exr, psd, and more image formats
 qt5-imageformats  # support for tiff, webp, and more image formats
 
-## Optional dependencies for k3b
-# >extra cdparanoia    # for cd ripping support
-# >extra cdrdao        # for disk-at-once (DAO) mode support
-# >extra dvd+rw-tools  # for dvd burning support
-# >extra emovix        # for bootable multimedia cd/dvd support
-# >extra transcode     # for advanced mpeg conversion support
-# >extra vcdimager     # for vcd burning support
-
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
 
@@ -252,41 +217,35 @@ kaccounts-providers
 sshfs  # remote filesystem browser
 
 ## Optional dependencies for kdenlive
->extra cdrtools         # for creation of DVD ISO images
->extra dvdauthor        # for creation of DVD
->extra dvgrab           # for firewire capture
->extra recordmydesktop  # for screen capture
-#>extra vlc-nightly # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
->extra movit            # for GPU video processing
+cdrtools         # for creation of DVD ISO images
+dvdauthor        # for creation of DVD
+dvgrab           # for firewire capture
+recordmydesktop  # for screen capture
+movit            # for GPU video processing
 
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Optional dependencies for print-manager
->extra system-config-printer  # auto-detect the printer driver
->extra python-pysmbc          # SMB browser support
+system-config-printer  # auto-detect the printer driver
+python-pysmbc          # SMB browser support
 
 ## Applications
-# >extra cantata
 dmidecode # for inxi -m output
 htop
 imagewriter
->extra inkscape
+inkscape
 inxi
->extra krita
->extra firefox
-# >basic qupzilla
->extra flashplugin
->extra libreoffice-still
-# manjaro-hello
+krita
+firefox
+flashplugin
+libreoffice-still
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 powertop
-# >extra qbittorrent
 screenfetch
 systemd-kcm
->extra thunderbird
-# vlc-nightly
+thunderbird
 yakuake
 audacious
 gimp
@@ -302,24 +261,11 @@ transmission-qt
 virtualbox
 virtualbox-guest-iso
 KERNEL-virtualbox-host-modules
-x11vnc
 vokoscreen
 
-## Optional dependencis for cantata
-# >extra mpd       # playback
-# >extra perl-uri  # dynamic playlist
-
 ## Optional dependencies for libreoffice
->extra jre8-openjdk
->extra jdk8-openjdk
-
-## Documentation
-# manjaro-documentation
-
-## Settings packages
-# >extra manjaro-kde-settings
-# >basic manjaro-kde-minimal-settings
-# manjaro-browser-settings
+jre8-openjdk
+jdk8-openjdk
 
 ## Xorg Input Drivers
 xf86-input-elographics
@@ -345,10 +291,8 @@ xdg-utils
 ## Misc
 manjaro-hotfixes
 
-## Flatpak support
-#>extra flatpak
-#>extra xdg-desktop-portal
-#>extra xdg-desktop-portal-kde
+## Appimage support
+appimagelauncher
 
 ## Artwork packages
 artwork-audacious
@@ -368,8 +312,6 @@ carbon-qt4
 carbon-qt5
 desktop-theme-blackx
 desktop-theme-bluex
-# lnf-theme-blackx
-# lnf-theme-bluex
 wallpapers-extra-pack-4
 
 ## Settings packages
@@ -413,22 +355,3 @@ plasma5-applets-simplemenu
 plasma5-applets-volumewin7mixer
 icedtea-web
 skypeforlinux-stable-bin
-
-## KDE PIM
-#akonadiconsole
-#kaddressbook
-#kalarm
-#kmail
-#knotes
-#konsolekalendar
-#kontact
-#korganizer
-
-## KDE Telepathy
-#telepathy-kde-meta
-#telepathy-gabble
-#telepathy-farstream
-#telepathy-haze
-#telepathy-idle
-#telepathy-morse
-#telepathy-rakia
