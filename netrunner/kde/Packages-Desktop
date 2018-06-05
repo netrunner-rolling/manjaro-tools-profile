@@ -199,7 +199,7 @@ marble
 
 ## Optional dependencies for ark
 p7zip  # 7Z format support
-unrar  # RAR format support
+unarchiver  # RAR format support
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
@@ -234,7 +234,6 @@ python-pysmbc          # SMB browser support
 dmidecode # for inxi -m output
 htop
 imagewriter
-inkscape
 inxi
 krita
 firefox
