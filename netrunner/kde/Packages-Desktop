@@ -13,7 +13,6 @@ openresolv
 openssh
 samba
 usb_modeswitch
-net-tools
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware

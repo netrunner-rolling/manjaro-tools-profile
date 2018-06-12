@@ -1,5 +1,4 @@
 acpi
->i686 archlinux32-keyring
 b43-fwcutter
 bash
 btrfs-progs
@@ -22,7 +21,6 @@ filesystem
 findutils
 gawk
 gcc-libs
->multilib gcc-libs-multilib
 gettext
 glibc
 grep
@@ -63,6 +61,7 @@ psmisc
 reiserfsprogs
 sed
 shadow
+spectre-meltdown-checker
 s-nail
 sudo
 sysfsutils
@@ -71,7 +70,6 @@ cpupower
 cronie
 cryptsetup
 device-mapper
-dhcpcd
 haveged
 lvm2
 mdadm
@@ -90,6 +88,5 @@ wget
 which
 xfsprogs
 zd1211-firmware
-zsh
 
 artwork-grub-theme-netrunner-black
