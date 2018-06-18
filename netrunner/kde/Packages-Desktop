@@ -31,7 +31,7 @@ libcanberra-gstreamer
 libdvdcss
 manjaro-alsa
 manjaro-pulse
-phonon-qt4-gstreamer
+>extra phonon-qt4-gstreamer
 phonon-qt5-gstreamer
 pulseaudio-bluetooth
 pulseaudio-ctl
@@ -70,22 +70,23 @@ make
 patch
 pkg-config
 >multilib lib32-flex
+yaourt
 
 ## Extra packages for AUR support
-git
-patchutils
-subversion
-yaourt
+>extra git
+>extra patchutils
+>extra subversion
+
 
 ## Fonts
 noto-fonts               # default font
-noto-fonts-emoji
+>extra noto-fonts-emoji
 terminus-font
 ttf-bitstream-vera
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
-ttf-droid
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
 
 ## Games
 burgerspace
@@ -98,8 +99,8 @@ kmines
 gnome-sudoku
 ksnakeduel
 kmahjongg
-steam
-steam-native-runtime
+>extra steam
+>extra steam-native-runtime
 
 ## Package management
 discover
@@ -107,21 +108,21 @@ packagekit-qt5
 octopi
 
 ## Printing
-cups
-cups-pdf
-cups-pk-helper
-ghostscript
-gsfonts
-gtk3-print-backends
-hplip
-splix
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gtk3-print-backends
+>extra hplip
+>extra splix
 
 ## Optional dependencies for hplip
-pyqt5-common
-python-pillow
-python-pip
-python-pyqt5
-python-reportlab
+>extra pyqt5-common
+>extra python-pillow
+>extra python-pip
+>extra python-pyqt5
+>extra python-reportlab
 
 ## Display manager
 sddm
@@ -154,17 +155,17 @@ user-manager
 
 ## Themes QT/GTK/SDDM
 breeze-netrunner
-breeze-kde4-netrunner
+>extra breeze-kde4-netrunner
 breeze-gtk
 gnome-icon-theme
-oxygen
-oxygen-kde4
-oxygen-icons
-oxygen-gtk2
+>extra oxygen
+>extra oxygen-kde4
+>extra oxygen-icons
+>extra oxygen-gtk2
 gnome-icon-theme-extras
 
 ## Better systray/notifications support
-sni-qt  # A Qt plugin that enables tray icons in qt4 applications
+>extra sni-qt  # A Qt plugin that enables tray icons in qt4 applications
 libappindicator-gtk2
 libappindicator-gtk3
 libappindicator-sharp
@@ -176,11 +177,11 @@ dolphin
 dolphin-plugins
 kate
 kcalc
-keditbookmarks
+>extra keditbookmarks
 kdeconnect
 okular
 kdenetwork-filesharing
-kdenlive
+>extra kdenlive
 kde-servicemenus-rootactions
 khelpcenter
 kio-extras
@@ -189,8 +190,8 @@ ksystemlog
 kwalletmanager
 gwenview
 partitionmanager
-print-manager
-skanlite
+>extra print-manager
+>extra skanlite
 spectacle
 icoutils
 kamoso
@@ -216,34 +217,35 @@ kaccounts-providers
 sshfs  # remote filesystem browser
 
 ## Optional dependencies for kdenlive
-cdrtools         # for creation of DVD ISO images
-dvdauthor        # for creation of DVD
-dvgrab           # for firewire capture
-recordmydesktop  # for screen capture
-movit            # for GPU video processing
+>extra cdrtools         # for creation of DVD ISO images
+>extra dvdauthor        # for creation of DVD
+>extra dvgrab           # for firewire capture
+>extra recordmydesktop  # for screen capture
+>extra movit            # for GPU video processing
 
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Optional dependencies for print-manager
-system-config-printer  # auto-detect the printer driver
-python-pysmbc          # SMB browser support
+>extra system-config-printer  # auto-detect the printer driver
+>extra python-pysmbc          # SMB browser support
 
 ## Applications
 dmidecode # for inxi -m output
 htop
 imagewriter
 inxi
-krita
-firefox
-flashplugin
-libreoffice-still
+>extra krita
+>extra firefox
+>basic falkon
+>extra flashplugin
+>extra libreoffice-still
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 powertop
 screenfetch
 systemd-kcm
-thunderbird
+>extra thunderbird
 yakuake
 audacious
 gimp
@@ -262,8 +264,8 @@ KERNEL-virtualbox-host-modules
 vokoscreen
 
 ## Optional dependencies for libreoffice
-jre8-openjdk
-jdk8-openjdk
+>extra jre8-openjdk
+>extra jdk8-openjdk
 
 ## Xorg Input Drivers
 xf86-input-elographics
@@ -290,7 +292,7 @@ xdg-utils
 manjaro-hotfixes
 
 ## Appimage support
-appimagelauncher
+>extra appimagelauncher
 
 ## Artwork packages
 artwork-audacious
@@ -303,11 +305,11 @@ artwork-wallpapers-netrunner-rolling-201801
 artwork-wallpapers-netrunner-rolling-base
 artwork-whiteclassicia-cursor
 artwork-windows-cursor
-adapta-kde
 carbon-gtk2
 carbon-gtk3
 carbon-qt4
 carbon-qt5
+desktop-theme-adapta
 desktop-theme-blackx
 desktop-theme-bluex
 wallpapers-extra-pack-4
@@ -319,13 +321,13 @@ default-settings-kdeapps
 default-settings-plasma
 default-settings-profiled
 default-settings-session-debug
-default-settings-thunderbird
+>extra default-settings-thunderbird
 default-settings-xdg-user-dirs
 default-settings-xsession
 default-systemsettings-settings-rolling
 netrunner-settings-autostart
 netrunner-settings-desktop-rolling
-netrunner-settings-firefox
+>extra netrunner-settings-firefox
 netrunner-settings-kcmabout
 netrunner-settings-samba
 netrunner-settings-sddm
@@ -348,8 +350,8 @@ ttf-ms-fonts
 kcm-about-extended
 kcm-plasma-services
 kcm-samba-mounter
-ocs-url
+>extra ocs-url
 plasma5-applets-simplemenu
 plasma5-applets-volumewin7mixer
 icedtea-web
-skypeforlinux-stable-bin
+>extra skypeforlinux-stable-bin
