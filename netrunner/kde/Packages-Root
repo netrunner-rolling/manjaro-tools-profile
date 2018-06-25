@@ -54,7 +54,6 @@ ntfs-3g
 os-prober
 pacman
 pciutils
-pcmciautils
 perl
 procps-ng-classic
 psmisc
@@ -87,6 +86,5 @@ vi
 wget
 which
 xfsprogs
-zd1211-firmware
 
 artwork-grub-theme-netrunner-black
