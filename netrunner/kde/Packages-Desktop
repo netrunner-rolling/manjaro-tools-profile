@@ -301,7 +301,6 @@ artwork-lnf-theme-netrunner-rolling
 artwork-netrunner-icons
 artwork-numarceeze-icons
 artwork-sddm-simple
-artwork-wallpapers-netrunner-rolling-201801
 artwork-wallpapers-netrunner-rolling-base
 artwork-whiteclassicia-cursor
 artwork-windows-cursor
@@ -309,7 +308,7 @@ carbon-gtk2
 carbon-gtk3
 carbon-qt4
 carbon-qt5
-desktop-theme-blackx
+desktop-theme-breeze-alphablack
 wallpapers-extra-pack-4
 
 ## Settings packages
