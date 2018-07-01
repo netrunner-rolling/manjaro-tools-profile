@@ -223,6 +223,9 @@ sshfs  # remote filesystem browser
 >extra recordmydesktop  # for screen capture
 >extra movit            # for GPU video processing
 
+## Optional dependency for kamoso
+>extra kipi-plugins  # export to various online services
+
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
 
