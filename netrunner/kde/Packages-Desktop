@@ -154,8 +154,8 @@ systemsettings
 user-manager
 
 ## Themes QT/GTK/SDDM
-breeze-netrunner
->extra breeze-kde4-netrunner
+breeze
+>extra breeze-kde4
 breeze-gtk
 gnome-icon-theme
 >extra oxygen
@@ -249,7 +249,6 @@ powertop
 screenfetch
 systemd-kcm
 >extra thunderbird
-yakuake
 audacious
 gimp
 gmusicbrowser-filterfun
@@ -299,19 +298,16 @@ manjaro-hotfixes
 
 ## Artwork packages
 artwork-audacious
-artwork-color-scheme-carbon
 artwork-lnf-theme-netrunner-rolling
 artwork-netrunner-icons
 artwork-numarceeze-icons
 artwork-sddm-simple
 artwork-wallpapers-netrunner-rolling-base
-artwork-whiteclassicia-cursor
 artwork-windows-cursor
 carbon-gtk2
 carbon-gtk3
 carbon-qt4
 carbon-qt5
-desktop-theme-breeze-alphablack
 desktop-theme-blackx
 wallpapers-extra-pack-4
 
@@ -353,6 +349,5 @@ kcm-plasma-services
 kcm-samba-mounter
 >extra ocs-url
 plasma5-applets-simplemenu
-plasma5-applets-volumewin7mixer
 icedtea-web
 >extra skypeforlinux-stable-bin
