@@ -1,4 +1,7 @@
-## Network
+## Gnome integration
+gtk3-classic
+
+## Netwotk
 avahi
 networkmanager
 networkmanager-openconnect
@@ -113,7 +116,6 @@ octopi
 >extra cups-pk-helper
 >extra ghostscript
 >extra gsfonts
->extra gtk3-print-backends
 >extra hplip
 >extra splix
 
@@ -332,8 +334,6 @@ netrunner-settings-sddm
 netrunner-settings-theming
 
 ## Extra and support packages
-gtk3-nocsd
-lib32-libgtk3-nocsd
 qtcurve-gtk2
 qtcurve-kde
 qtcurve-qt4
@@ -350,7 +350,6 @@ ttf-ms-fonts
 kcm-about-extended
 kcm-plasma-services
 kcm-samba-mounter
-kwin-scripts-force-decorations-gtk3
 >extra ocs-url
 plasma5-applets-simplemenu
 icedtea-web
