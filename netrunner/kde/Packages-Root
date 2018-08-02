@@ -42,7 +42,6 @@ logrotate
 lsb-release
 man-db
 manjaro-firmware
-netrunner-release
 manjaro-system
 man-pages
 memtest86+
@@ -87,4 +86,5 @@ wget
 which
 xfsprogs
 
+netrunner-release
 artwork-grub-theme-netrunner-black
