@@ -157,11 +157,9 @@ user-manager
 
 ## Themes QT/GTK/SDDM
 breeze
->extra breeze-kde4
 breeze-gtk
 gnome-icon-theme
 >extra oxygen
->extra oxygen-kde4
 >extra oxygen-icons
 >extra oxygen-gtk2
 gnome-icon-theme-extras
