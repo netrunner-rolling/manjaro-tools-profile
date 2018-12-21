@@ -74,6 +74,7 @@ lvm2
 mdadm
 nfs-utils
 rsync
+systemd-fsck-silent
 systemd-sysvcompat
 tlp
 wpa_supplicant
