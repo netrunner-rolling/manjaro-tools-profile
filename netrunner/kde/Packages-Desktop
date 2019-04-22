@@ -16,6 +16,7 @@ openresolv
 openssh
 samba
 usb_modeswitch
+net-tools
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
@@ -77,7 +78,7 @@ pkg-config
 >extra git
 >extra patchutils
 >extra subversion
-yaourt
+trizen
 
 ## Fonts
 noto-fonts               # default font
@@ -117,7 +118,6 @@ octopi
 >extra gtk3-print-backends
 >extra hplip
 >extra splix
->extra system-config-printer
 
 ## Optional dependencies for hplip
 >extra pyqt5-common
@@ -159,6 +159,7 @@ user-manager
 breeze
 breeze-gtk
 gnome-icon-theme
+artwork-grub-theme-netrunner-black
 >extra oxygen
 >extra oxygen-icons
 >extra oxygen-gtk2
@@ -240,7 +241,7 @@ imagewriter
 inkscape
 inxi
 >extra krita
->extra firefox-kde-opensuse
+>extra firefox
 >basic falkon
 >extra flashplugin
 >extra libreoffice-still
@@ -265,6 +266,7 @@ virtualbox
 virtualbox-guest-iso
 KERNEL-virtualbox-host-modules
 vokoscreen
+yakuake
 
 ## Optional dependencies for libreoffice
 >extra jre8-openjdk
@@ -297,6 +299,7 @@ xorg-xinit
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
+xdg-su
 
 ## Misc
 manjaro-hotfixes
@@ -306,18 +309,19 @@ manjaro-hotfixes
 
 ## Artwork packages
 artwork-audacious
+artwork-color-scheme-carbon
 artwork-lnf-theme-netrunner-rolling
+artwork-lnf-theme-netrunner-black
 artwork-netrunner-icons
 artwork-numarceeze-icons
 artwork-sddm-simple
-artwork-wallpapers-netrunner-rolling-base
-artwork-windows-cursor
-carbon-gtk2
-carbon-gtk3
-carbon-qt4
-carbon-qt5
+artwork-wallpapers-netrunner-rolling-default
+artwork-whiteclassicia-cursor
+aurorae-theme-forman
 desktop-theme-blackx
-wallpapers-extra-pack-4
+desktop-theme-breeze-alphablack
+gtk-theme-blackbird
+obsidian-icon-theme
 
 ## Settings packages
 default-settings-applications
@@ -335,8 +339,8 @@ netrunner-settings-desktop-rolling
 >extra netrunner-settings-firefox
 netrunner-settings-kcmabout
 netrunner-settings-samba
-netrunner-settings-sddm
 netrunner-settings-theming
+netrunner-rolling-settings
 
 ## Extra and support packages
 qtcurve-gtk2
@@ -347,8 +351,8 @@ qt5-quickcontrols2
 qt5-websockets
 quota-tools
 kross-interpreters
+kvantum-qt5
 wget
-imwheel
 flatzebra
 perl-glib-object-introspection
 ttf-ms-fonts
@@ -357,5 +361,9 @@ kcm-plasma-services
 kcm-samba-mounter
 >extra ocs-url
 plasma5-applets-simplemenu
+plasma5-applets-volumewin7mixer
 icedtea-web
 >extra skypeforlinux-stable-bin
+web-menu-entries
+>extra xdg-desktop-portal
+>extra xdg-desktop-portal-kde
