@@ -339,6 +339,7 @@ netrunner-settings-desktop-rolling
 >extra netrunner-settings-firefox
 netrunner-settings-kcmabout
 netrunner-settings-samba
+netrunner-settings-sddm
 netrunner-settings-theming
 netrunner-rolling-settings
 
