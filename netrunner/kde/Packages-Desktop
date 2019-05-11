@@ -159,7 +159,6 @@ user-manager
 breeze
 breeze-gtk
 gnome-icon-theme
-artwork-grub-theme-netrunner-black
 >extra oxygen
 >extra oxygen-icons
 >extra oxygen-gtk2
@@ -310,6 +309,7 @@ manjaro-hotfixes
 ## Artwork packages
 artwork-audacious
 artwork-color-scheme-carbon
+artwork-grub-theme-netrunner-black
 artwork-lnf-theme-netrunner-rolling
 artwork-lnf-theme-netrunner-black
 artwork-netrunner-icons
